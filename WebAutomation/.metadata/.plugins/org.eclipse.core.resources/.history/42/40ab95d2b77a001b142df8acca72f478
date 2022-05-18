@@ -1,0 +1,53 @@
+package WebAutomation;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Sample {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+
+		WebDriver driver = new ChromeDriver();
+		
+		System.out.println("Code Executed successfully before");
+		driver.get("https://machinelearningforkids.co.uk/#!/projects");	
+		System.out.println("Code Executed successfully after");
+		System.out.println(driver.getTitle());
+		
+		/*
+		driver.navigate().refresh();
+		driver.navigate().to("http://google.com");
+		driver.navigate().back();
+		Thread.sleep(2000);
+		driver.navigate().forward();
+		Thread.sleep(2000);
+		driver.close();
+		System.out.println("Code Executed successfully");
+		*/
+	    //String title = driver.getTitle();
+		//System.out.println(title);
+		//driver.close();
+		driver.get("http://google.com");
+		Thread.sleep(2000);
+	//	driver.manage().window().maximize();		
+		/*
+		Thread.sleep(2000);
+		String title1 = driver.getTitle();
+		
+		System.out.println(title1);
+		
+		String url = driver.getCurrentUrl();
+		System.out.println(url);
+		
+		String src = driver.getPageSource();
+		System.out.println(src);		
+		driver.close();
+		*/
+			
+		
+		
+		
+	}
+
+}

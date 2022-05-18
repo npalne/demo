@@ -1,0 +1,13 @@
+package Webtesting;
+
+import org.testng.annotations.Test;
+
+public class TwitTest {
+	
+	@Test
+	public void AddTwit()
+	{
+		System.out.println("AddTwit");
+	}
+
+}

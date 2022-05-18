@@ -1,0 +1,20 @@
+package WebAutomation;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Sample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		ChromeDriver driver = new ChromeDriver();
+		
+		driver.get("https://machinelearningforkids.co.uk/#!/projects");
+		
+		
+		driver.navigate().refresh();
+		driver.navigate().to("http://google.com");
+		driver.navigate().back();
+	}
+
+}
