@@ -5,7 +5,7 @@ public class Arry1 {
 	public static void main(String[] args) {
 		
 		
-		
+		//ew caes sdfds
 		int [] x= {5,10,15,20};
 		
 		for(int b:x)
